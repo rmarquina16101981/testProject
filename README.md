@@ -1,4 +1,3 @@
-
 ITK RESERVATION API
 ===================
 
@@ -40,6 +39,8 @@ You should have installed and configured:
 * Step 5 : At Glassfish configurations, add a "JDBC Resource" (under Resources/JDBC) with parameters: 
     * JNDI Name: jdbc/reservation
     * Pool Name: mysql_reservation_rootPool
+* Step 6 : Build the project with command line `mvn package` 
+* Step 7 : Deploy the reservation.ear (~/ITKReservationAPI/Target/) in glassfish
 
 
 4. Copyrigth
