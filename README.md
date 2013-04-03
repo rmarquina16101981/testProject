@@ -4,7 +4,7 @@ ITK RESERVATION API
 1. Introduction
 -------------------------
     
-This API project will obtain information from diferent vendors (mindbody, jackrabbit, etc), such as:
+This API project will obtain information from different vendors (MindBody, JackRabbit, etc), such as:
 
 * Activities (class)
 * Clients
@@ -12,7 +12,7 @@ This API project will obtain information from diferent vendors (mindbody, jackra
 * Location
 * Instructors
 
-This project contain  the next packages
+This project contains the next packages
 * ITKReservationEJB
 * ITKReservationWEB
 * IKTReservationEAR
@@ -21,10 +21,10 @@ This project contain  the next packages
 
 2. Requirements
 -------------------------
-You should have installed and configured:
-* *GlassFish 3 [dowload](http://glassfish.java.net/public/downloadsindex.html).*
-* *Mysql 5 [dowload](http://dev.mysql.com/downloads/).* 
-* *Maven 2 [dowload](http://maven.apache.org/download.cgi).* 
+You should have installed:
+* *GlassFish 3 [download](http://glassfish.java.net/public/downloadsindex.html).*
+* *Mysql 5 [download](http://dev.mysql.com/downloads/).* 
+* *Maven 2 [download](http://maven.apache.org/download.cgi).* 
 
 
 3. Deploy reservation API on Glassfish
@@ -39,7 +39,7 @@ You should have installed and configured:
 * Step 5 : At Glassfish configurations, add a "JDBC Resource" (under Resources/JDBC) with parameters: 
     * JNDI Name: jdbc/reservation
     * Pool Name: mysql_reservation_rootPool
-* Step 6 : Build the project with command line `mvn package` 
+* Step 6 : Build the project with command line `mvn -X package > mvn.log` 
 * Step 7 : Deploy the reservation.ear (~/ITKReservationAPI/Target/) in glassfish
 
 
