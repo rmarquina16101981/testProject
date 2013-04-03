@@ -30,7 +30,7 @@ You should have installed and configured:
 3. Deploy reservation API on Glassfish
 -------------------------
 * Step 1 : download or clone "ITK_Reservation_api" project.
-* Step 2 : Run the database sql script in the mysql folder (~/mysql/reservation.sql), the dabase reservation will be created, this name will be referenced in next steps.
+* Step 2 : Run the database sql script in the mysql folder (~/mysql/reservation.sql), the database reservation will be created, this name will be referenced in next steps.
 * Step 3 : Ensure all applications (EAR, EJB, and WEB) use Glassfish server.
 * Step 4 : At Glassfish configurations (at localhost:4848), add a "JDBC Conections Pool" (under Resources/JDBC) with parameters: 
     * Pool name: mysql_reservation_rootPool 
