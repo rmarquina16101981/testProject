@@ -27,7 +27,7 @@ You should have installed and configured:
 * *Maven 2 [dowload](http://maven.apache.org/download.cgi).* 
 
 
-3. How to use
+3. Deploy reservation API on Glassfish
 -------------------------
 * Step 1 : download or clone "ITK_Reservation_api" project.
 * Step 2 : Run the database sql script in the mysql folder (~/mysql/reservation.sql), the dabase reservation will be created, this name will be referenced in next steps.
@@ -45,7 +45,7 @@ You should have installed and configured:
 
 4. Copyrigth
 -------------------------
-   @ItivitiKids Inc.
+   @ItivityKids Inc.
 
-   *Web page: [www.itivitikids.com](http://www.itivitikids.com).*
+   *Web page: [www.itivitykids.com](http://www.itivitykids.com).*
 
